@@ -5710,7 +5710,13 @@ h5 {
   height: 105px;
   text-align: center;
 }
-
+.parrafo-galeria{
+  background-color: #EDF2F5;
+  color: #004356;
+  margin: 0;
+  padding: 6% 8%;
+  text-align: center;
+}
 .parrafo-premio{
   background-color: #EDF2F5;
   color: #004356;
@@ -5723,6 +5729,13 @@ h5 {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 8% 0 9% 9%;
+}
+
+.titulo-semana{
+  background-image: url(../assets/images/semana.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 8% 9% 9% 0;
 }
 
 .nombre-jurado{
