@@ -5522,6 +5522,9 @@ button.close {
 /*========================================
 =             APP CUSTOM                 =
 ========================================*/
+
+// CONFIGURACIONES GENERALES
+
 .container-fluid {
   padding: 0; }
 
@@ -5535,149 +5538,39 @@ button.close {
 body {
   font-family: 'Roboto', sans-serif;}
 
+.border-right{
+  border-right: 1px solid #bdc3c7; }
+
+.no-resize{
+  resize: none;}
+
+a:hover {
+  background-color: transparent;
+  color: #0095A7;}
+
+input, button{
+  display: inline-block;}
+
+.relative{
+  position: relative;}
+
 .font-Museo{
   font-family: MuseoSans; }
 
-.text-celeste{
-  color: #51C5D9; }
+@font-face {
+  font-family: MuseoSans;
+  src: url(../fonts/section-fonts/MuseoSans.otf); }  
 
-.text-azulOscuro{
-  color:#0095A7; }
+// TAMAÑO LETRA
 
-.text-gray{
-  color: #2c3e50; }
-
-.text-azul{
-  color:#004356; }
-
-.fs-15{
-  font-size: 15px;
-  letter-spacing: 0.4px !important; }
-
-.border-right{
-  border-right: 1px solid #bdc3c7; }
-.no-resize{
-  resize: none;
-}
-.pr-2{
-  padding-right: 2%; }
-.pl-2{
-  padding-left: 2%; }  
-
-.pr-3{
-  padding-right: 3%; }
-
-.pl-3{
-  padding-left: 3%; }
-
-.pl-10{
-  padding-left: 10%; } 
-
-.pr-10{
-  padding-right: 10%; }       
-
-.pt-1{
-  padding-top: 1%; }      
-
-.pb-1{
-  padding-bottom: 1%;}
-
-.pb-3{
-  padding-bottom: 3%;}
-
-.m-2-0{
-  margin: 2% 0 !important;}  
-
-.m-4-0{
-  margin: 4% 0 !important;}  
-
-.pt-3{
-  padding-top: 3%}
-
-.pr-1{
-  padding-right: 1%;}
-
-.pl-1{
-  padding-left: 1%;}
-
-.pb-2{
-  padding-bottom: 2%;}
-.mb-3{
-  margin-bottom: 3%;}  
-.width-100{
-  width: 100%;}
-
-.height-120{
-  height: 120px;}
-.p-m-0{
-  padding: 0;
-  margin: 0;
-}
-img{
-  width: 100%; }
-
-.bg-humo{
-  background-color: rgba(1,1,1,0.1);}
-
-.p-3{
-  padding: 3% !important;}
-.pl-4{
-  padding-left: 4%;
-}
-.p-2-1{
-  padding: 2% 1% !important;}
-
-.p-0-2{
-  padding: 0 2%!important;}   
-
-.p-3-4{
-  padding: 3% 4% !important;} 
-
-.p-3-12{
-  padding: 3% 12% !important;} 
-
-.recursos{
-  padding: 3% 4% 2%!important;
-}
-.separador{
-  width: 100%;
-  border: 1px dashed #bdc3c7;
-  padding: 0 1%;}
-
-.height-300{
-  height: 300px;
-}
-.height-250{
-  height: 250px;
-}
-
-.columna-derecha{
-  background-color: #EDF2F5;
-  padding: 2% 3.7% 1.5%;}
-
-.bg-1{
-  background-color: #EDF2F5;
-}
-.bg-2{
-  background-color: #F6F7F9;
-}
-
-.mb-3{
-  margin-bottom: 3%;
-}
-.fs-13{
-  font-size: 13px;
-}
 h1 {
   font-size: 33px;
   font-weight: bold;
-  letter-spacing: 0; 
   line-height: 1; }
 
 h2 {
   font-size: 29px;
   font-weight: bold;
-  letter-spacing: 0;
   line-height: 1; }
 
 h3 {
@@ -5692,17 +5585,155 @@ h5 {
   font-size: 17px;
   line-height: 1.2; }
 
-@font-face {
-  font-family: MuseoSans;
-  src: url(../fonts/section-fonts/MuseoSans.otf); }
+.fs-20{
+  font-size: 20px;}
+
+.fs-15{
+  font-size: 15px;
+  letter-spacing: 0.4px !important; }
+
+.fs-13{
+  font-size: 13px;}
+
+// COLOR LETRA
+
+.text-gray{
+  color: #2c3e50; }
+
+.text-celeste{
+  color: #51C5D9; }
+
+.text-azulOscuro{
+  color:#0095A7; }
+
+.text-azul{
+  color:#004356; }
+
+// BACKGROUND
+
+.bg-humo{
+  background-color: rgba(1,1,1,0.1);}
+
+.bg-1{
+  background-color: #EDF2F5;}
+
+.bg-2{
+  background-color: #F6F7F9;}
+
+// ANCHO Y ALTURA
+
+.width-100{
+  width: 100%;}
+
+.height-120{
+  height: 120px;}
+
+.height-300{
+  height: 300px;}
+
+.height-250{
+  height: 250px;}
+
+img{
+  width: 100%; }   
+
+// PADDING 
+
+.pt-1{
+  padding-top: 1%; }      
+
+.pb-1{
+  padding-bottom: 1%;}
+
+.pr-1{
+  padding-right: 1%;}
+
+.pl-1{
+  padding-left: 1%;}
+
+.pb-2{
+  padding-bottom: 2%;} 
+
+.pr-2{
+  padding-right: 2%; }
+
+.pl-2{
+  padding-left: 2%; }  
+
+.p-3{
+  padding: 3% !important;}
+
+.pt-3{
+  padding-top: 3%}
+
+.pb-3{
+  padding-bottom: 3%;}
+
+.pr-3{
+  padding-right: 3%; }
+
+.pl-3{
+  padding-left: 3%; }
+
+.pl-4{
+  padding-left: 4%;}
+
+.pr-10{
+  padding-right: 10%; }    
+
+.pl-10{
+  padding-left: 10%; } 
+ 
+.p-2-1{
+  padding: 2% 1% !important;}
+
+.p-0-2{
+  padding: 0 2%!important;}   
+
+.p-3-4{
+  padding: 3% 4% !important;} 
+
+.p-3-12{
+  padding: 3% 12% !important;} 
+
+// MARGIN
+
+.m-2-0{
+  margin: 2% 0 !important;}  
+
+.m-4-0{
+  margin: 4% 0 !important;}  
+
+.mb-3{
+  margin-bottom: 3%;}  
+
+// NO margin NO padding
+
+.p-m-0{
+  padding: 0;
+  margin: 0;
+}
+
+// Clases utilitarias
+
+.recursos{
+  padding: 3% 4% 2%!important;}
+
+.separador{
+  width: 100%;
+  border: 1px dashed #bdc3c7;
+  padding: 0 1%;}
+
+.columna-derecha{
+  background-color: #EDF2F5;
+  padding: 2% 3.7% 1.5%;}
 
 .parrafo{
   background-color: rgba(0,0,0,0.9);
   color: white;
   padding: 5% 3%;
   width: 100%;
-  text-align: center;
-}
+  text-align: center;}
 
 .parrafo-jurado{
   background-color: #EDF2F5;
@@ -5710,77 +5741,60 @@ h5 {
   margin: 0;
   padding: 6% 8%;
   height: 105px;
-  text-align: center;
-}
+  text-align: center;}
+
 .parrafo-galeria{
   background-color: #EDF2F5;
   color: #004356;
   margin: 0;
   padding: 6% 8%;
-  text-align: center;
-}
+  text-align: center;}
+
 .parrafo-premio{
   background-color: #EDF2F5;
   color: #004356;
   margin: 0;
-  text-align: center;
-}
+  text-align: center;}
 
 .titulo-20claves{
   background-image: url(../assets/images/fundaciontelef.png);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 8% 0 9% 9%;
-}
+  padding: 8% 0 9% 9%;}
 
 .titulo-semana{
   background-image: url(../assets/images/semana.png);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 8% 9% 9% 0;
-}
+  padding: 8% 9% 9% 0;}
 
 .nombre-jurado{
   position: absolute;
   background-color: rgba(0,0,0,0.9);
   color: white;
   top: 55%;
-  padding: 5% 4%;
-}
+  padding: 5% 4%;}
 
-.relative{
-  position: relative;
-}
-
-.absolute{
-  position: absolute;
-  background-color: rgba(0,0,0,0.9);
-  bottom: 0;
-  color: white;
-}  
 .titulo-blog{
   position: absolute;
   background-color: rgba(0,0,0,0.9);
   color: white !important;
   top: 55%;
-  padding: 1% 5%;
-}
+  padding: 1% 5%;}
+
+.titulo-blog-interno{
+  background-color: rgba(0,0,0,0.9);
+  color: white !important;
+  width: 100%;
+  padding: 2% 4%;}
+
 .titulo-destacado{
   position: absolute;
   background-color: rgba(0,0,0,0.9);
   color: white !important;
   width: 100%;
   padding: 2% 4%;
-  bottom: 0;
-}
+  bottom: 0;}
+
 .menu{
-  height: 80px;
-}
-
-a:hover{
-  background-color: rgba(0,0,0,0.9);  
-}
-
-input, button{
-  display: inline-block;
-}
+  height: 80px;}  
