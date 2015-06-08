@@ -5523,7 +5523,7 @@ button.close {
 =             APP CUSTOM                 =
 ========================================*/
 
-// CONFIGURACIONES GENERALES
+/* CONFIGURACIONES GENERALES */
 
 .container-fluid {
   padding: 0; }
@@ -5561,12 +5561,12 @@ input, button{
   font-family: MuseoSans;
   src: url(../fonts/section-fonts/MuseoSans.otf); }  
 
-// TAMAÑO LETRA
+/* TAMAÑO LETRA */
 
 h1 {
   font-size: 33px;
   font-weight: bold;
-  line-height: 1; }
+  line-height: 1.3; }
 
 h2 {
   font-size: 29px;
@@ -5585,6 +5585,10 @@ h5 {
   font-size: 17px;
   line-height: 1.2; }
 
+h6 {
+  font-size: 13px;
+  line-height: 1.2; }  
+
 .fs-20{
   font-size: 20px;}
 
@@ -5595,7 +5599,7 @@ h5 {
 .fs-13{
   font-size: 13px;}
 
-// COLOR LETRA
+/* COLOR LETRA */
 
 .text-gray{
   color: #2c3e50; }
@@ -5609,7 +5613,7 @@ h5 {
 .text-azul{
   color:#004356; }
 
-// BACKGROUND
+/* BACKGROUND */
 
 .bg-humo{
   background-color: rgba(1,1,1,0.1);}
@@ -5620,7 +5624,7 @@ h5 {
 .bg-2{
   background-color: #F6F7F9;}
 
-// ANCHO Y ALTURA
+/* ANCHO Y ALTURA */
 
 .width-100{
   width: 100%;}
@@ -5637,7 +5641,7 @@ h5 {
 img{
   width: 100%; }   
 
-// PADDING 
+/* PADDING */
 
 .pt-1{
   padding-top: 1%; }      
@@ -5696,7 +5700,7 @@ img{
 .p-3-12{
   padding: 3% 12% !important;} 
 
-// MARGIN
+/* MARGIN */
 
 .m-2-0{
   margin: 2% 0 !important;}  
@@ -5707,17 +5711,19 @@ img{
 .mb-3{
   margin-bottom: 3%;}  
 
-// NO margin NO padding
+/* NO margin NO padding */
 
 .p-m-0{
-  padding: 0;
-  margin: 0;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-// Clases utilitarias
+/* Clases utilitarias */
 
 .recursos{
-  padding: 3% 4% 2%!important;}
+  padding: 3% 4% 2%;
+  background-color: #EDF2F5;
+}
 
 .separador{
   width: 100%;
